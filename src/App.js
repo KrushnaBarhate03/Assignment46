@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css'
 import { websiteName,description,imageurl,button1,button2 } from './config';
-import{shopName,mobiledes,mobileimageurl,btn1,btn2}from'./config2';
+import{shopName,mobiledes,mobileimageurl,btn1,btn2}from'./config';
 
 
 function App() {
