@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css'
 import { websiteName,description,imageurl,button1,button2 } from './config';
+import{shopName,mobiledes,mobileimageurl,btn1,btn2}from'./config2';
+
 
 function App() {
   return (
@@ -11,8 +13,8 @@ function App() {
       <img src={imageurl}  height="400" className='h-[300px] object-cover block mx-auto'/>
 
       <div className='flex justify-center'>
-        <button className='bg-blue-500 m-5 p-1 text-white rounded md'>{button1}</button>
-        <button  className='bg-blue-500 m-5 p-1 text-white rounded md' >{button2}</button>
+        <button className='bg-orange-500 m-5 p-1 text-white rounded md'>{button1}</button>
+        <button  className='bg-orange-500 m-5 p-1 text-white rounded md' >{button2}</button>
       </div>
     </div>
 
